@@ -1,9 +1,35 @@
+# Byte-compiled / cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# Logs and temporary files
 *.log
-*.txt~
-.env
-.git
+*.tmp
+
+#Build artifacts
+*.egg-info/
+dist/
+build/
+
+#Git and Docker metadata
+.git/
+.gitignore
 .dockerignore
 Dockerfile*
+docker-compose*
+
+#OS and Editor junk files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+#Project-specific
 README.md
